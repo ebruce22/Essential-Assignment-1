@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-<html>
-<style>
+
     body {
-            background-image: url('images/cherry_tree.jpg');
+            background-image: url('images\cherry_tree.jpg');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
@@ -54,5 +52,3 @@
             vertical-align: top;
             background-color: #ffd1dc;
         }
-</style>
-</html>
