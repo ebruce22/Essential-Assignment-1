@@ -59,23 +59,26 @@
 
     .navbar {
         overflow: hidden;
-        background-color: black;
+        background-color: #add8e6;
         position: fixed;
         top: 0;
         width: 100%;
+        display: inline-block;
+        text-align: center;
+        list-style: none;
+        margin-left: 0px;
     }
 
-    .navbar a {
-        float: middle;
-        display: block;
+    .navbar li {
         color: white;
         text-align: center;
         padding: 14px 16px;
-        text-decoration: underline black dotted;
+        text-decoration: underline white dotted;
         transition: color 0.5s ease-out;
+        display: inline-block;
     }
 
-    .navbar a:hover {
+    .navbar li:hover {
         color: #ffb7c5;
     }
 
