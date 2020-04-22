@@ -1,4 +1,8 @@
 
+    html {
+            scroll-behavior: smooth;
+    }
+
     body {
             font-family: "Comic Sans MS", cursive, sans-serif;
             background-image: url('images/cherry_tree.jpg');
@@ -6,21 +10,21 @@
             background-attachment: fixed;
             background-size: cover;
         }
-        h1 {
+    h1 {
             text-align: center;
 
         }
 
-        h3 {
+    h3 {
             color: gray;
             text-align: center;
         }
         
-        * {
+    * {
             cursor: url(http://cur.cursors-4u.net/cursors/cur-3/cur242.ani), url(http://cur.cursors-4u.net/cursors/cur-3/cur242.png), auto !important;
         }
 
-        .box1 {
+    .box1 {
             border-style: solid;
             border-color: white;
             width: 1000px;
@@ -30,7 +34,7 @@
             margin: 0 auto;
         }
 
-        .box2 {
+    .box2 {
             border-style: solid;
             border-color: white;
             width: 1000px;
@@ -41,14 +45,37 @@
             margin-top: 50px;
         }
 
-        .header {
+    .header {
             border-style: solid;
             border-color: white;
             height: 50px;
         }
 
-        td {
+    td {
             text-align: left;
             vertical-align: top;
             background-color: #ffd1dc;
         }
+
+    .navbar {
+        overflow: hidden;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .navbar a {
+        float: center;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: underline black dotted;
+        transition: color 0.5s ease-out;
+    }
+
+    .navbar a:hover {
+        color: #ffb7c5;
+    }
+
