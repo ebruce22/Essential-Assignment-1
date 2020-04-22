@@ -58,10 +58,13 @@
         }
 
     .navbar {
+        font-size: x-large;
         overflow: hidden;
-        background-color: #add8e6;
+        background-color: #FFFF99;
         position: fixed;
         top: 0;
+        right: 0;
+        left: 0;
         width: 100%;
         display: inline-block;
         text-align: center;
@@ -72,13 +75,23 @@
     .navbar li {
         color: white;
         text-align: center;
-        padding: 14px 16px;
-        text-decoration: underline white dotted;
+        padding: 0px 40px;
+        text-decoration: none;
         transition: color 0.5s ease-out;
         display: inline-block;
     }
 
-    .navbar li:hover {
+    .navbar li a:hover {
         color: #ffb7c5;
+        text-decoration: none;
     }
-
+    
+    .navbar li a:visited {
+        color: white;
+        transition: color 0.5s ease-out;
+        text-decoration: none;
+    }
+    .navbar li a:visited, a:hover {
+        color: #ffb7c5;
+        text-decoration: none;
+    }
