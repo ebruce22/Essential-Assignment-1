@@ -95,14 +95,14 @@
         color: #ffb7c5;
     }
     
-    .navbar li a:visited {
+    /* .navbar li a:visited {
         color: white;
         transition: color 0.5s ease-out;
     }
     .navbar li a:visited, a:hover {
         color: #ffb7c5;
     } 
-
+    */
     .contents {
         padding-top: 81px;
     }
