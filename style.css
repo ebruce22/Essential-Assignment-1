@@ -121,12 +121,59 @@
     .navbar li a:hover {
         color: #ffb7c5;
     }
-    
-    /* .navbar li a:visited {
+
+    .sidebar {
+        position: fixed;
+        right: 100px;
+        top: 400px;
+        height: 300px;
+        width: 10%;
+        background-color: #ffb7c5;
+        border-style: solid;
+        border-width: 3px;
+        border-color: white;
+        overflow: hidden;
+        list-style: none;
+        color: black;
+        font-size: 150%;
+    }
+
+    .sidebar li {
+        padding: 40px;
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        bottom: 30px;
+        right: 50px;
+    }
+
+    .sidebar li a {
+        transition: color 0.3s ease-out;
+        color: black;
+        text-decoration: none;
+    }
+
+    .sidebar li a:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+    .sidebar li a:visited {
+        color: white;
+        text-decoration: none;
+        overflow: hidden;
+    }
+    /*
+
+     .sidebar li a:visited, a:hover {
+        color: white;
+    }
+
+     .navbar li a:visited {
         color: white;
         transition: color 0.5s ease-out;
     }
     .navbar li a:visited, a:hover {
         color: #ffb7c5;
-    } 
-    */
+    } */
