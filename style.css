@@ -39,10 +39,6 @@
     h3 span {
         background-color: rgba(255,255,255,0.5);
     }
-        
-    * {
-            cursor: url(http://cur.cursors-4u.net/cursors/cur-3/cur242.ani), url(http://cur.cursors-4u.net/cursors/cur-3/cur242.png), auto !important;
-        }
 
     .box1 {
             border-style: solid;
