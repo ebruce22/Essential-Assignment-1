@@ -1,4 +1,5 @@
 
+    /* All */
     html {
             scroll-behavior: smooth;
     }
@@ -45,107 +46,7 @@
             text-align: center;
     }
 
-    .box1 {
-            border-style: solid;
-            border-color: white;
-            width: 700px;
-            height: 500px;
-            border-collapse: collapse;
-            background-color: #ffb7c5;
-            margin: auto;
-        }
-
-    .box2 {
-            border-style: solid;
-            border-color: white;
-            width: 700px;
-            height: 500px;
-            border-collapse: collapse;
-            background-color: #ffb7c5;
-            margin: auto;
-            margin-top: 50px;
-        }
-
-    .header {
-            border-style: solid;
-            border-color: white;
-            height: 50px;
-        }
-
-    th {
-        font-size: x-large;
-    }
-
-    td {
-            text-align: left;
-            vertical-align: top;
-            background-color: #ffd1dc;
-            padding: 40px;
-        }
-
- 
-    .contents {
-        padding-top: 81px;
-    }
-    
-    .penguins {
-        width: 300px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        border-style: double;
-        border-color: white;
-        border-width: 5px;
-    }
-
-    .computer {
-        margin: auto;
-        margin-top: 50px;
-        border-style: dashed;
-        border-width: 5px;
-        color: #ffb7c5;
-        width: 500px;
-        background-color: white;
-        display: block;
-    }
-
-    .learn {
-        width: 300px;
-        position: absolute;
-        top: 320px;
-    }
-
-    .navbar {
-        font-size: x-large;
-        overflow: hidden;
-        background-color: white;
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        width: 100%;
-        display: inline-block;
-        text-align: center;
-        list-style: none;
-        margin-left: 0px;
-    }
-
-    .navbar li {
-        text-align: center;
-        padding: 0px 40px;
-        text-decoration: none;
-        display: inline-block;
-    }
-    
-    .navbar li a {
-        transition: color 0.5s ease-out;
-        color: black;
-        text-decoration: none;
-    }
-    .navbar li a:hover {
-        color: #ffb7c5;
-    }
-
+    /* Welcome */
     .sidebar {
         position: fixed;
         right: 100px;
@@ -187,4 +88,102 @@
         color: white;
         text-decoration: none;
         overflow: hidden;
+    }
+
+    /* Job Opportunity and Learning Opportunity */
+    .box {
+            border-style: solid;
+            border-color: white;
+            width: 700px;
+            height: 500px;
+            border-collapse: collapse;
+            background-color: #ffb7c5;
+            margin: auto;
+            margin-top: 50px;
+        }
+
+    .header {
+            border-style: solid;
+            border-color: white;
+            height: 50px;
+        }
+
+    th {
+        font-size: x-large;
+    }
+
+    td {
+            text-align: left;
+            vertical-align: top;
+            background-color: #ffd1dc;
+            padding: 40px;
+        }
+
+ 
+    .contents {
+        padding-top: 81px;
+    }
+    
+    .navbar {
+        font-size: x-large;
+        overflow: hidden;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        list-style: none;
+        margin-left: 0px;
+    }
+
+    .navbar li {
+        text-align: center;
+        padding: 0px 40px;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    .navbar li a {
+        transition: color 0.5s ease-out;
+        color: black;
+        text-decoration: none;
+    }
+    .navbar li a:hover {
+        color: #ffb7c5;
+    }
+
+    /* Pictures */
+    .penguins {
+        width: 600px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: double;
+        border-color: white;
+        border-width: 5px;
+        margin-top: 30px;
+    }
+
+    .computer {
+        margin: auto;
+        margin-top: 50px;
+        border-style: dashed;
+        border-width: 5px;
+        color: #ffb7c5;
+        width: 500px;
+        background-color: white;
+        display: block;
+    }
+
+    .learn {
+        width: 500px;
+        margin: auto;
+        border-style: dotted;
+        color: #ffd1dc;
+        display: block;
+        margin-top: 50px;
+        border-width: 5px;
     }
