@@ -71,10 +71,15 @@
             height: 50px;
         }
 
+    th {
+        font-size: x-large;
+    }
+
     td {
             text-align: left;
             vertical-align: top;
             background-color: #ffd1dc;
+            padding: 40px;
         }
 
  
