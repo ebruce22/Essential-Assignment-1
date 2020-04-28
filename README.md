@@ -1,2 +1,2 @@
 # Essential Assignment 1
- Essential Assignment 1 for Computer Science
+ This is my Essential Assignment 1 for Computer Science
